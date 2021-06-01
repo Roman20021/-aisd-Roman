@@ -117,9 +117,5 @@ int main()
     arr = QuickSort(arr, arr.size());
     *array = count_sort(array, len);
     out(arr, array, len);
-    cout << endl;
-    cout << "Кол-во итераций : "<<y;
-    y = 0;
-
     return 0;
 }
