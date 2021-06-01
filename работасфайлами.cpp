@@ -157,5 +157,7 @@ int main()
     cout << endl;
     cout << "Кол-во итераций в сортировке подсчетом: " << k;
     k = 0;
+    cout << endl;
+    out(arr, array, len);
     return 0;
 }
